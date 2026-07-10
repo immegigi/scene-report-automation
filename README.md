@@ -50,6 +50,21 @@ GitHub Pages 주소는 프로젝트 문서와 진행 허브로 사용합니다.
 5. `06_supabase_schema.sql`
 6. `07_report_template.md`
 
+## 로컬 실행
+
+```bash
+pnpm install
+pnpm dev
+```
+
+기본 주소:
+
+```text
+http://localhost:3000
+```
+
+현재 1차 MVP에는 고객/제출 목록, 제출 상세, 단계별 AI 파이프라인 버튼, 리포트 에디터, PDF 미리보기 화면이 포함되어 있습니다. 샘플 데이터로 전체 흐름을 먼저 확인할 수 있습니다.
+
 ## 검토 및 실행 보조 문서
 
 - `11_codex_development_plan_review.md` : Codex 명령어 확인 및 개발계획 검토보고서
