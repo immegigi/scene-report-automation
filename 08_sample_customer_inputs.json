@@ -1,0 +1,41 @@
+[
+  {
+    "case_id": "sample_01_reply_delay",
+    "name": "샘플A",
+    "email": "sample-a@example.com",
+    "relationship_type": "썸/연애 초반",
+    "scene_text": "상대가 평소보다 답장이 늦고 답장도 짧아졌다. 전에는 이모티콘도 많았는데 오늘은 '응 알겠어' 정도로 끝났다.",
+    "actual_words": "응 알겠어. 나중에 얘기하자.",
+    "interpretation": "나한테 식은 것 같다. 내가 귀찮아진 것 같다.",
+    "emotion": "불안, 서운함, 초조함",
+    "reaction": "계속 카톡을 확인했고 장문을 쓰고 싶었지만 참았다.",
+    "unsaid_words": "나 이제 별로야?",
+    "desired_change": "매달리지 않으면서 내 마음을 말하고 싶다."
+  },
+  {
+    "case_id": "sample_02_conflict_avoidance",
+    "name": "샘플B",
+    "email": "sample-b@example.com",
+    "relationship_type": "연애 관계",
+    "scene_text": "서운한 일이 있었는데 말하면 분위기가 안 좋아질까 봐 괜찮다고 했다. 그런데 집에 와서 계속 생각나고 눈물이 났다.",
+    "actual_words": "괜찮아. 별일 아니야.",
+    "interpretation": "내가 말하면 상대가 나를 피곤한 사람으로 볼 것 같다.",
+    "emotion": "서운함, 외로움, 억울함",
+    "reaction": "괜찮은 척하고 혼자 울었다.",
+    "unsaid_words": "사실 그 말이 나한테는 꽤 아팠어.",
+    "desired_change": "서운함을 공격처럼 말하지 않고 차분하게 말하고 싶다."
+  },
+  {
+    "case_id": "sample_03_over_responsibility",
+    "name": "샘플C",
+    "email": "sample-c@example.com",
+    "relationship_type": "장기 연애",
+    "scene_text": "다툼이 생기면 항상 내가 먼저 풀려고 한다. 상대는 말이 없고 나는 계속 설명하고 분위기를 수습한다.",
+    "actual_words": "상대는 '지금 말하기 싫어'라고 했고, 나는 계속 미안하다고 했다.",
+    "interpretation": "내가 먼저 풀지 않으면 이 관계가 끝날 것 같다.",
+    "emotion": "불안, 책임감, 지침",
+    "reaction": "계속 사과하고 설명하며 상대 기분을 살폈다.",
+    "unsaid_words": "나도 힘들고, 나만 수습하는 것 같아.",
+    "desired_change": "관계 문제를 혼자 책임지지 않고 싶다."
+  }
+]
