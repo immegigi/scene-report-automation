@@ -65,12 +65,21 @@ http://localhost:3000
 
 현재 1차 MVP에는 고객/제출 목록, 제출 상세, 단계별 AI 파이프라인 버튼, 리포트 에디터, PDF 미리보기 화면이 포함되어 있습니다. 샘플 데이터로 전체 흐름을 먼저 확인할 수 있습니다.
 
+## Supabase 연결
+
+1. Supabase SQL editor에서 `06_supabase_schema.sql`을 실행합니다.
+2. `.env.example`을 복사해 `.env.local`을 만들고 Supabase URL/anon key를 입력합니다.
+3. 첫 관리자는 Supabase Auth 사용자 생성 후 `admin_profiles`에 추가합니다.
+
+자세한 절차는 `docs/supabase_setup.md`를 참고합니다.
+
 ## 검토 및 실행 보조 문서
 
 - `11_codex_development_plan_review.md` : Codex 명령어 확인 및 개발계획 검토보고서
 - `docs/codex_final_command.md` : 새 Codex 작업에 붙여 넣을 최종 압축 명령어
 - `docs/deployment_notes.md` : GitHub Pages와 실제 앱 배포 기준
 - `docs/github_issues.md` : GitHub Issue 등록안
+- `docs/supabase_setup.md` : Supabase 스키마, RLS, 관리자 등록 절차
 - `.github/ISSUE_TEMPLATE/development_task.md` : 개발 작업 이슈 템플릿
 
 ## 개발 착수 전 확인할 것
