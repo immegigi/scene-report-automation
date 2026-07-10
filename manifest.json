@@ -1,0 +1,20 @@
+{
+  "package_name": "scene_report_codex_sourcepack",
+  "version": "v1",
+  "created_at": "2026-07-10T08:01:03.360454",
+  "project": "그 장면 해석 리포트 자동화 구축 프로젝트",
+  "files": [
+    "01_project_sourcepack.md",
+    "02_codex_phase1_admin_mvp.md",
+    "03_codex_phase2_ai_pipeline.md",
+    "04_codex_phase3_pdf_report.md",
+    "05_ai_prompts.md",
+    "06_supabase_schema.sql",
+    "07_report_template.md",
+    "08_sample_customer_inputs.json",
+    "09_quality_checklist.md",
+    "10_new_chat_command.md",
+    "README.md"
+  ],
+  "purpose": "Codex 투입용 소스팩"
+}
