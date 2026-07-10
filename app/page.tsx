@@ -13,12 +13,14 @@ import {
   Plus,
   Save,
   ShieldCheck,
+  Database,
   Sparkles,
   UserRound
 } from "lucide-react";
 import { useMemo, useState } from "react";
 import { analyses as initialAnalyses, customers as initialCustomers, reports as initialReports, submissions as initialSubmissions } from "@/lib/sample-data";
 import { statusLabels, statusTone } from "@/lib/status";
+import { isSupabaseConfigured } from "@/lib/supabase/client";
 import type { Analysis, Customer, Report, RiskLevel, Submission, SubmissionStatus } from "@/lib/types";
 
 const workflowSteps = [
@@ -255,6 +257,14 @@ export default function AdminDashboard() {
           <div>
             <h1>그 장면 해석 리포트</h1>
             <p>관리자 MVP</p>
+          </div>
+        </div>
+
+        <div className={isSupabaseConfigured ? "mode-banner connected" : "mode-banner demo"}>
+          <Database size={16} />
+          <div>
+            <strong>{isSupabaseConfigured ? "Supabase 연결 준비" : "샘플 데이터 모드"}</strong>
+            <span>{isSupabaseConfigured ? "환경변수 감지됨" : ".env.local 설정 전까지 로컬 샘플 사용"}</span>
           </div>
         </div>
 

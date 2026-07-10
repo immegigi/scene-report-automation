@@ -107,6 +107,41 @@ p {
   gap: 8px;
 }
 
+.mode-banner {
+  align-items: flex-start;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  display: flex;
+  gap: 10px;
+  padding: 11px;
+}
+
+.mode-banner strong,
+.mode-banner span {
+  display: block;
+}
+
+.mode-banner strong {
+  font-size: 14px;
+}
+
+.mode-banner span {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+  margin-top: 3px;
+}
+
+.mode-banner.demo {
+  background: #fff1d8;
+  color: var(--amber);
+}
+
+.mode-banner.connected {
+  background: #e7f3ed;
+  color: var(--green);
+}
+
 .metric {
   border: 1px solid var(--line);
   background: var(--surface-strong);
