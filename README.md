@@ -3,6 +3,14 @@
 Codex 투입용 프로젝트 소스팩입니다.  
 목표는 고객용 SaaS가 아니라, 운영자가 관계 장면 리포트를 생성하고 검토하는 관리자용 내부 MVP를 만드는 것입니다.
 
+## 프로젝트 주소
+
+- GitHub Pages 허브: https://immegigi.github.io/scene-report-automation/
+- GitHub 저장소: https://github.com/immegigi/scene-report-automation
+
+GitHub Pages 주소는 프로젝트 문서와 진행 허브로 사용합니다.  
+실제 관리자 MVP는 OpenAI API, Supabase Auth, Supabase Storage가 필요하므로 Vercel 같은 서버 실행 환경 배포를 기본 방향으로 둡니다.
+
 ## 프로젝트 목적
 
 「그 장면 해석 리포트」는 고객이 제출한 관계 장면 하나를 바탕으로,
@@ -46,6 +54,7 @@ Codex 투입용 프로젝트 소스팩입니다.
 
 - `11_codex_development_plan_review.md` : Codex 명령어 확인 및 개발계획 검토보고서
 - `docs/codex_final_command.md` : 새 Codex 작업에 붙여 넣을 최종 압축 명령어
+- `docs/deployment_notes.md` : GitHub Pages와 실제 앱 배포 기준
 - `docs/github_issues.md` : GitHub Issue 등록안
 - `.github/ISSUE_TEMPLATE/development_task.md` : 개발 작업 이슈 템플릿
 
